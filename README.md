@@ -1,7 +1,8 @@
 # MarkovChains_monotonicities
 Module containing functions for checking various monotonicities in Markov chains.
-Details are available in the article
 
+
+Details on monotonicities are available in the article
 Pawel Lorek and Piotr Markowski (2017).  "Monotonicity requirements for efficient exact sampling with Markov chains". To appear in Markov Processes and Related Fields. Available at http://www.math.uni.wroc.pl/~lorek/papers/
 
 ## Overview
