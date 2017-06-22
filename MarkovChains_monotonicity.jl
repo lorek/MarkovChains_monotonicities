@@ -5,7 +5,7 @@ module MarkovChains_monotonicity
 
 #
 # All functions require order matrix C and transition matrix P
-# Consult Lorek, P., Markowski, P. "Monotonicity requirements for exact sampling with Markov chains" 
+# Consult Lorek, P., Markowski, P. "Monotonicity requirements for efficient exact sampling with Markov chains" 
 # for details concerning monotonicities.
 #
 # Tested in Julia 0.5.0
