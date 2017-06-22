@@ -1,7 +1,7 @@
 
 # Sample file for module  MarkovChains_monotonicity
 # We check monotonicites of matrices P1 ... P20 from article
-# Lorek, P., Markowski, P. "Monotonicity requirements for exact sampling with Markov chains" 
+# Lorek, P., Markowski, P. "Monotonicity requirements for efficient exact sampling with Markov chains" 
 
 
 # Remark
