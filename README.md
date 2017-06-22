@@ -20,11 +20,11 @@ Pawel Lorek and Piotr Markowski (2017).  "Monotonicity requirements for efficien
 
 ## Usage
 
-Loading the module (from current directory)
+Loading the module (from the current directory)
 
 ````julia
 # Julia 0.5.0 does not search for modules 
-# in current path by default. You may be forced to use first the following:
+# in the current  path by default. You may be forced to use first the following:
 julia> push!(LOAD_PATH,pwd());  
 
 julia> using MarkovChains_monotonicity
@@ -36,7 +36,7 @@ Symmetric random walk on 2-dimensional cube (states (0,0), (1,0), (0,1), (1,1),
 coordinate-wise ordering)
 
 ````julia
-julia> julia> P=[1//3 1//3 1//3 0; 1//3 1//3 0 1//3; 1//3 0 1//3 1//3; 0 1//3 1//3 1//3];
+julia> P=[1//3 1//3 1//3 0; 1//3 1//3 0 1//3; 1//3 0 1//3 1//3; 0 1//3 1//3 1//3];
 julia> C=[1 1 1 1; 0 1 0 1; 0 0 1 1; 0 0 0 1];
 julia> is_stochastic(C,P2)
 true                                                                                                                        
